@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="text-sm sm:text-xl lg:text-3xl">
+<html lang="en" class="text-sm sm:text-xl lg:text-3xl scroll-smooth">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +11,7 @@
 </head>
 <body class="w-full relative">
 
-    <header class="w-full text-xs text-white h-16 bg-[#4e5ac3] px-2 sticky top-0 left-0 z-10">
+    <header class="w-full text-xs text-white h-16 bg-[#4e5ac3] px-2 sticky top-0 left-0 z-20">
         <div class="w-full max-w-[1020px] h-full mx-auto text-white flex justify-between items-center">
             <div class="font-black flex">
                 <div class="">
@@ -24,9 +24,9 @@
             </div>
             <nav>
                 <ul class="text-center text-[0.5rem] flex justify-between items-center gap-4">
-                    <li class="flex justify-center items-center">ABOUT</li>
-                    <li class="flex justify-center items-center">WHAT I CAN DO FOR YOU</li>
-                    <li class="p-1 px-2 bg-black rounded-lg flex justify-center items-center">LET'S CHAT</li>
+                    <li class="flex justify-center items-center overflow-hidden"><a href="#about">ABOUT</a></li>
+                    <li class="flex justify-center items-center overflow-hidden"><a href="#work">WHAT I CAN DO FOR YOU</a></li>
+                    <li class="p-1 px-2 bg-black rounded-lg flex justify-center items-center overflow-hidden"><a class="w-full h-full" href="https://docs.google.com/forms/d/e/1FAIpQLSdOgrKBUkHiR0_XBB3wakRfC7hyE9zDFFC5zm31UuUeWdBd3w/viewform?usp=dialog" target="_blank">LET'S CHAT</a></li>
                 </ul>
             </nav>
         </div>
@@ -34,17 +34,17 @@
 
     <main class="w-full">
         <section class="w-full bg-[#4e5ac3] relative">
-            <div class="bg-[url('https://images.pexels.com/photos/265152/pexels-photo-265152.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')] w-full h-full absolute top-0 left-0 opacity-5"></div>
-            <div class="w-full max-w-[1020px] h-full mx-auto p-6 py-12 text-4xl font-extrabold flex flex-col justify-around items-start gap-3">
+            <div class="w-full max-w-[1020px] h-full mx-auto p-6 py-12 text-4xl font-extrabold flex flex-col justify-around items-start gap-3 relative z-10">
                 <h2>WRITER.</h2>
                 <h2>GHOSTWRITER.</h2>
                 <h2>EDITOR.</h2>
                 <p class="text-white">When you need great content, I'm here to help.</p>
-                <p class="p-2 font-semibold text-lg text-white bg-black rounded-lg my-1">Let's Chat</p>
+                <p class="p-2 font-semibold text-lg text-white bg-black rounded-lg my-1"><a class="w-full h-full" href="https://docs.google.com/forms/d/e/1FAIpQLSdOgrKBUkHiR0_XBB3wakRfC7hyE9zDFFC5zm31UuUeWdBd3w/viewform?usp=dialog" target="_blank">Let's Chat</a></p>
             </div>
+            <div class="bg-[url('https://images.pexels.com/photos/265152/pexels-photo-265152.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')] w-full h-full absolute top-0 left-0 opacity-5"></div>
         </section>
 
-        <section class="w-full relative bg-[#3c3c4e]">
+        <section id="work" class="w-full relative bg-[#3c3c4e]">
             <div class="w-full max-w-[1020px] h-full text-white mx-auto p-4 py-12 font-extrabold flex flex-col justify-around items-start gap-3">
                 <div class="mb-4">
                     <div class="h-2 w-8 bg-[#4e5ac3] mb-2"></div>
@@ -91,7 +91,7 @@
             </div>
         </section>
 
-        <section class="w-full py-12">
+        <section id="about" class="w-full py-12">
             <div class="max-w-[1020px] px-4 mx-auto mb-3 text-sm flex justify-around items-center">
                 <div>
                     <h2 class="font-extrabold text-xl mb-2">Muhammad Uzair</h2>
@@ -151,11 +151,11 @@
         </section>
 
         <section class="w-full bg-[#4e5ac3] relative">
-            <div class="bg-[url('https://images.pexels.com/photos/265152/pexels-photo-265152.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')] w-full h-full absolute top-0 left-0 opacity-5"></div>
-            <div class="w-full max-w-[1020px] h-full mx-auto p-6 py-12 text-4xl font-extrabold flex flex-col justify-around items-start gap-3">
+            <div class="w-full max-w-[1020px] h-full mx-auto p-6 py-12 text-4xl font-extrabold flex flex-col justify-around items-start gap-3 relative z-10">
                 <p class="text-white">Sound like someone you want to work with?</p>
-                <p class="p-2 font-semibold text-lg text-white bg-black rounded-lg my-1">Let's Chat</p>
+                <p class="p-2 font-semibold text-lg text-white bg-black rounded-lg my-1"><a class="w-full h-full" href="https://docs.google.com/forms/d/e/1FAIpQLSdOgrKBUkHiR0_XBB3wakRfC7hyE9zDFFC5zm31UuUeWdBd3w/viewform?usp=dialog" target="_blank">Let's Chat</a></p>
             </div>
+            <div class="bg-[url('https://images.pexels.com/photos/265152/pexels-photo-265152.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')] w-full h-full absolute top-0 left-0 opacity-5"></div>
         </section>
     </main>
     <footer class="w-full text-xs text-white h-16 bg-[#3c3c4e] text-xs">
@@ -164,7 +164,7 @@
                 <h2>Site Created By:</h2>
                 <p>Muhammad Uzair</p>
             </div>
-            <a href="www.linkedin.com/in/muhammad-uzair-ba41b725a">
+            <a href="www.linkedin.com/in/muhammad-uzair-ba41b725a" target="_blank">
             <svg class="h-10" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="none"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path fill="#0A66C2" d="M12.225 12.225h-1.778V9.44c0-.664-.012-1.519-.925-1.519-.926 0-1.068.724-1.068 1.47v2.834H6.676V6.498h1.707v.783h.024c.348-.594.996-.95 1.684-.925 1.802 0 2.135 1.185 2.135 2.728l-.001 3.14zM4.67 5.715a1.037 1.037 0 01-1.032-1.031c0-.566.466-1.032 1.032-1.032.566 0 1.031.466 1.032 1.032 0 .566-.466 1.032-1.032 1.032zm.889 6.51h-1.78V6.498h1.78v5.727zM13.11 2H2.885A.88.88 0 002 2.866v10.268a.88.88 0 00.885.866h10.226a.882.882 0 00.889-.866V2.865a.88.88 0 00-.889-.864z"></path></g></svg>
         </a>
         </div>
